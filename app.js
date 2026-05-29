@@ -3,7 +3,7 @@ const searchInput = document.getElementById('search-input');
 const moviesContainer = document.getElementById('movies-container');
 
 const API_KEY = '8f806940';
-const API_URL = 'http://www.omdbapi.com';
+const API_URL = 'https://www.omdbapi.com';
 
 function handleSearch() {
   const query = searchInput.value.trim();
