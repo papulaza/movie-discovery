@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Discovery</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>🎬 Movie Discovery</h1>
+      <p>Search for any movie in the world</p>
+    </header>
+    <main>
+      <div class="search-box">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="e.g. Inception, The Godfather..."
+        />
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="movies-container"></div>
+    </main>
+  </body>
+</html>
